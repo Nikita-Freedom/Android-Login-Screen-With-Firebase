@@ -1,8 +1,9 @@
 package com.example.bibli;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -37,11 +38,9 @@ public class BookListActivity extends FragmentActivity {
         bookAdapter.setOnItemClickListener(new BookAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(View itemView, int position) {
-                Toast.makeText(
-                        BookListActivity.this,
-                        "An item at position " + position + " clicked!",
-                        Toast.LENGTH_SHORT).show();
-
+                Intent intent = new Intent(BookListActivity.this, BookDetailActivity.class);
+                startActivity(intent);
+                Toast.makeText(BookListActivity.this, "An item at position " + position + " clicked!",Toast.LENGTH_SHORT).show();
                 // Handle item click here:
                 // Create Intent to start BookDetailActivity
                 // Get Book at the given position

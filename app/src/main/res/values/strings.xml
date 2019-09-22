@@ -6,7 +6,7 @@
     <string name="loginButton">Вход</string>
     <string name="signUp">Создать аккаунт</string>
     <string name="loginText">Вход</string>
-    <string name="signOutText">Войти</string>
+    <string name="signOutText">Выйти</string>
     <string name="SignUPText">Зарегистрироваться</string>
     <string name="nameEdit">Имя</string>
     <string name="confirmPasswordEdit">Повторите пароль</string>

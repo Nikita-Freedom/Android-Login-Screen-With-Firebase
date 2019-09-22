@@ -36,6 +36,8 @@
         <activity
             android:name="com.example.bibli.ResetPasswordActivity"
             android:theme="@style/AppThemefull" />
+        <activity android:name=".BookListActivity" />
+        <activity android:name=".BookDetailActivity" />
 
     </application>
 
