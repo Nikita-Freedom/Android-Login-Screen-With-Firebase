@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "21592063289",
+    "firebase_url": "https://bibli-885dd.firebaseio.com",
+    "project_id": "bibli-885dd",
+    "storage_bucket": "bibli-885dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21592063289:android:a96f04d8a4e7c6b2b77ce8",
+        "android_client_info": {
+          "package_name": "com.example.bibli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21592063289-2qb1s2c065fl3mpn3ruispvq10hhuso9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bibli",
+            "certificate_hash": "cc9afb69e5d685c220c61e443dcffa8c490448af"
+          }
+        },
+        {
+          "client_id": "21592063289-oqaj9ugmpi2fhrkapm27gq1mnbgnfgbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFw6wakV1tQFuwsKmm4uK7FI0BXP45Zmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21592063289-oqaj9ugmpi2fhrkapm27gq1mnbgnfgbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
